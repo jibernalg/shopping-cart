@@ -39,7 +39,7 @@ function App() {
   };
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shopping-cart">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
